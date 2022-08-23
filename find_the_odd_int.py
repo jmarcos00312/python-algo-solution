@@ -13,7 +13,7 @@ def find_it(seq):
     for item in seqTodict:
         # if the of item's remainder divided by 2 is not equal to 0 then we return that item
         if(seqTodict[item] % 2 != 0):
-            return item"
+            return item
     
 
 
