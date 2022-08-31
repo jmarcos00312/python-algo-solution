@@ -38,16 +38,16 @@ print(wave("hello")) # => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 
 
 
-def wave(str):
-    # Code here
-    if str == []:
-        return []
-    else:
-        result = []
-        for i in range(len(list(str))):
-            # if 0 does not equal to white space
-            if str[i] != " ":
-                str_update = list(''.join(str).lower())
-                str_update[i] = str_update[i].upper()
-                result.append(''.join(str_update))
-        return result
+# def wave(str):
+#     # Code here
+#     if str == []:
+#         return []
+#     else:
+#         result = []
+#         for i in range(len(list(str))):
+#             # if 0 does not equal to white space
+#             if str[i] != " ":
+#                 str_update = list(''.join(str).lower())
+#                 str_update[i] = str_update[i].upper()
+#                 result.append(''.join(str_update))
+#         return result
